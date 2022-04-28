@@ -9,7 +9,9 @@ import {
   UnorderedList,
 } from "@chakra-ui/react";
 import { useFormik } from "formik";
+import { useEffect } from "react";
 import { BsPlusSquareDotted } from "react-icons/bs";
+import { draggableItem } from "utils/draggable";
 
 export default function Home() {
   const INITIAL_VALUES = {
@@ -39,6 +41,10 @@ export default function Home() {
     window.print();
   };
 
+  useEffect(() => {
+    draggableItem();
+  }, []);
+
   const { values, setFieldValue, handleChange, handleBlur, errors } = useFormik(
     {
       initialValues: INITIAL_VALUES,
@@ -56,7 +62,16 @@ export default function Home() {
           Imprimir
         </Button>
       </Flex>
-      <Flex w={766} h={1086} bg="body" color="text" id="printable">
+      <Flex
+        w={766}
+        h={1086}
+        bg="body"
+        color="text"
+        id="printable"
+        position="absolute"
+        top="4"
+        cursor="grab"
+      >
         <Flex background="black" color="white" direction="column" padding="8">
           <Flex direction="column" rotate={90}>
             <Heading>{values.name}</Heading>
