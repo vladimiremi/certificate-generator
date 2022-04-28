@@ -19,9 +19,9 @@ export const theme = extendTheme({
       text: "#21406A",
     },
   },
-  font: {
-    heading: "Roboto",
-    body: "Roboto",
+  fonts: {
+    heading: "Noto Sans, sans-serif",
+    body: "Noto Sans, sans-serif",
   },
   styles: {
     global: {
@@ -32,7 +32,7 @@ export const theme = extendTheme({
 
       "@media print": {
         "@page": {
-          size: "29.7cm 21cm",
+          size: "21cm 29.7cm",
           margin: "0mm",
         },
 
