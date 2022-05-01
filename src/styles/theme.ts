@@ -20,8 +20,8 @@ export const theme = extendTheme({
     },
   },
   fonts: {
-    heading: "Noto Sans, sans-serif",
-    body: "Noto Sans, sans-serif",
+    heading: "Nunito, Noto Sans, sans-serif",
+    body: "Nunito, Noto Sans, sans-serif",
   },
   styles: {
     global: {
