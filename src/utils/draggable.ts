@@ -7,7 +7,7 @@ declare global {
 
 export function draggableItem() {
   window.onload = function () {
-    Draggable(document.getElementById("printable"));
+    Draggable(document.getElementById("draggable"));
   };
 
   //Adiciona eventos pra navegadores modernos e antigos
