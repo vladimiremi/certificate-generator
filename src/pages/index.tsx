@@ -35,7 +35,7 @@ export default function Home() {
       "vladimirpiaui11@gmail.com",
     ],
     about:
-      "Sou desenvolvedor fullstack com mais de 1 ano de experiência profissional. Meu primeiro contato com programação foi em 2017 e desde então me apaixonei e venho aprendendo cada vez mais com entregas pontuais e satisfatórias a cada dia. Atualmente trabalho com as seguintes tecnologias: HTML, CSS, Javascript, React, Next, Node, Express, MySQL, e muito mais.",
+      "Sou desenvolvedor Full Stack com mais de 2 ano de experiência, como foco em Front-end. Atualmente trabalho com a stack JavaScript: React, Node, Next, Express, React Native, Prisma, Sequelize, MySQL, MongoDB e muito mais. Sou movido a desafios e estou sempre em busca de novos aprendizados. Meu primeiro contato com programação foi em 2017. De lá pra cá, criei sistemas do zero, adicionei novas funcionalidades em softwares já em produção, procurando sempre ser um pouco melhor a cada dia.",
   };
 
   const print = () => {
@@ -108,14 +108,14 @@ export default function Home() {
                 <Text fontWeight="bold" mt="2">
                   Full Stack Developer
                 </Text>
-                <Text>Hybriun Desenvolvimento · 1 ano 2 meses</Text>
+                <Text>Hybriun Desenvolvimento · 1 ano 4 meses</Text>
                 <UnorderedList>
                   <ListItem textAlign="justify" mt="1">
-                    Procurando ser rápido dentro do proposto, produzindo um
-                    código limpo, componentizado e estruturado. Participei de
-                    vários projetos tanto na parte do front-end quanto do
-                    back-end. Desenvolvi desde aplicações Web responsivas até
-                    Aplicativos Mobile.
+                    Como colaborador de uma empresa de venda de softwares, minha
+                    função era desenvolver sistemas e sites utilizando as
+                    linguagens NodeJS, ReactJS e NextJS. Atuava tanto no
+                    Back-end quanto no Front-end dos projetos, aplicando
+                    inovação em padrões para API`&apos;`S REST(NodeJS).
                   </ListItem>
                 </UnorderedList>
                 ...
