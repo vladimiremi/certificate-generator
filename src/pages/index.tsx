@@ -17,7 +17,7 @@ import { draggableItem } from "utils/draggable";
 export default function Home() {
   const INITIAL_VALUES = {
     name: "Vladimir Costa",
-    profession: "Full Stack Developer",
+    profession: "Desenvolvedor Front-End",
     softSkills: [
       "Empatia",
       "Colaboração",
@@ -115,7 +115,7 @@ export default function Home() {
                     função era desenvolver sistemas e sites utilizando as
                     linguagens NodeJS, ReactJS e NextJS. Atuava tanto no
                     Back-end quanto no Front-end dos projetos, aplicando
-                    inovação em padrões para API`&apos;`S REST(NodeJS).
+                    inovação em padrões para API&apos;S REST(NodeJS).
                   </ListItem>
                 </UnorderedList>
                 ...
